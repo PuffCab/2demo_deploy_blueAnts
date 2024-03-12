@@ -15,7 +15,7 @@ import {
 import { db } from "../../firebaseConfig";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import { ReviewType } from "../../@types/ReviewTypes";
 
